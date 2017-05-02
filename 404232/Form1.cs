@@ -26,5 +26,10 @@ namespace _404232
         {
             MessageBox.Show("HELLO");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Text = textBox1.Text;
+        }
     }
 }
